@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title = 'Recently Created Accounts'>
+        <div style="height: 300px;">
+            <lightning-datatable
+                    key-field="Id"
+                    data={recentlyCreatedAccounts}
+                    columns={columns}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>
